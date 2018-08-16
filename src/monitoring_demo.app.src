@@ -5,7 +5,9 @@
   {mod, { monitoring_demo_app, []}},
   {applications,
    [kernel,
-    stdlib
+    stdlib,
+    exometer_core,
+    lager
    ]},
   {env,[]},
   {modules, []},
